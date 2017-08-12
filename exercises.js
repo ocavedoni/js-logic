@@ -61,6 +61,14 @@ console.log(voter1);
  * Console.log your result.
 */
 
+function login(password){
+  if (password === "test1234"){
+    return "Login Success!";
+  }
+}
+
+var firstTry = login("test1234");
+console.log(firstTry);
 
 /*
  * #3
@@ -75,7 +83,15 @@ console.log(voter1);
  * Console.log your result.
 */
 
+function isGreaterThan(first, second){
+  if (first > second){
+    return true;
+  } else {
+    return false;
+  }
+}
 
+console.log(isGreaterThan(4,8));
 
 /*
  * #4
