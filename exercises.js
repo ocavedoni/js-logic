@@ -7,6 +7,17 @@ if(today === "Friday"){
   return "Let's Party!";
 };*/
 
+function newDate(date){
+	if (date === "Friday"){
+		return "Let's party!";
+	} else {
+    return "Get back to work.";
+  }
+}
+
+var today = newDate("Friday");
+console.log(today);
+
 /*
 If/else statements = Evaluates (or checks) a condition. If the condition is true, the first code block is executed. If the condition is false, the second code block is executed instead.
 */
@@ -29,6 +40,14 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  * The function will return true if the number passed into the function is equal to or greater than Hawaii's voting age. Console.log your result.
 */
 
+function canVote(age){
+  if (age >= 18){
+    return true;
+  }
+}
+
+var voter1 = canVote(20);
+console.log(voter1);
 
 /*
  * #2
