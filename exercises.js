@@ -105,7 +105,15 @@ console.log(isGreaterThan(4,8));
  * Console.log your result.
 */
 
+function mustBeTrue(boo){
+  if (boo === "boo"){
+    return true;
+  } else {
+    return false;
+  }
+}
 
+console.log(mustBeTrue("boo"));
 
 /*
  * #5
