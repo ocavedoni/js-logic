@@ -131,7 +131,7 @@ function bigBird(word){
   if (word.length <= 3){
     return "Word to Big Bird!";
   } else {
-    return false
+    return false;
   }
 }
 
@@ -150,6 +150,15 @@ console.log(bigBird("1234"));
  * Console.log your result.
 */
 
+function isEqual(first, second){
+  if (first === second){
+    return "You look mahvelous!";
+    } else { 
+      return "I dont know who you are anymore.";
+    }
+}
+
+console.log(isEqual(1,2));
 
 /*
  * #7
